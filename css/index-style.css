@@ -1,0 +1,61 @@
+body{
+  /* margin: 0; */
+  /* padding: 0; */
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* font-family: sans-serif; */
+  font-weight: bold;
+}
+
+table {
+  width: 1350px;
+  border: 0;
+  align: center;
+}
+
+tr {
+  height: 600px;
+}
+
+.kolom-1 {
+  width: 650px;
+  margin-top: 0;
+  padding-top: 0;
+  /* align-items: center; */
+  /* align-content: center; */
+  vertical-align: top;
+}
+
+.kolom-2 {
+width: 700px;
+/* align-items: center; */
+/* align-content: center; */
+vertical-align: top;
+}
+
+button {
+  background:#800000;
+  /* color:white; */
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  /* 5px solid #2A80B9; */
+  border-radius: 18px;
+  padding:13px 23px;
+  text-decoration:none;
+  /* font-family:Wonder Boys; */
+  /* font-size:15pt; */
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+/* @font-face {
+  font-weight: bold;
+} */
