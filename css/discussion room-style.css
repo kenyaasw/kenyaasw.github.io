@@ -1,0 +1,137 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+tr {
+  /* height: 300px; */
+  vertical-align: top;
+  margin-bottom: 0px;
+  /* border: 2px solid black; */
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.menu {
+  /* vertical-align: top; */
+  margin-left: 70px;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 30px;
+}
+
+.profile-img {
+  height: 27px;
+}
+
+.library-img img {
+  height: 184px;
+  /* width: 471px; */
+  float: right;
+}
+.menu-mobile {
+  display: none;
+}
+
+.judul {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 38px;
+	margin-left: 200px;
+  /* line-height: 50px; */
+}
+
+.baris-2 {
+	font-family: "Futura Bk BT";
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	background-color: #5a5a5a;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.baris-2 img {
+	height: 40px;
+	/* margin-top: 10px; */
+	margin-left: 30px;
+}
+
+.baris-2 button a {
+	font-family: "Font Wonder";
+	color: white;
+	font-size: 20px;
+}
+
+.baris-2 button {
+  background-color: #2C5AA0;
+  border: 0px;
+  border-radius: 17px;
+  padding: 10px;
+	float: right;
+	margin-right: 30px;
+}
+
+.baris-2 button:hover{
+    background-color: #800000;
+}
+
+hr {
+	width: 1200px;
+}
+
+.tombol button a {
+	font-family: "Font Wonder";
+	color: white;
+	font-size: 23px;
+}
+
+.tombol button {
+  background-color: #800000;
+  border: 0px;
+  border-radius: 25px;
+  padding: 15px;
+	float: right;
+	margin-right: 30px;
+}
+
+.tombol button:hover{
+    background-color: #2C5AA0;
+}
