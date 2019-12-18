@@ -78,14 +78,17 @@ tr {
 }
 
 .vid-less-list ul {
-	font-family: "Font Lemon";
-  color: black;
-  font-size: 15px;
 	margin-left: 580px;
 	height: 100px;
 	width: 10%;
 	overflow: hidden;
 	overflow-y: scroll;
+}
+
+.vid-less-list a {
+	font-family: "Font Lemon";
+  color: black;
+  font-size: 15px;
 }
 
 .tombol a {
@@ -109,6 +112,10 @@ button {
 	margin-right: 100px;
   /* font-family:Wonder Boys; */
   /* font-size:15pt; */
+}
+
+button:hover{
+    background-color: #2C5AA0;
 }
 
 @media screen and (max-width: 1300px) {
@@ -160,6 +167,10 @@ button {
     margin-left: 100px;
     /* line-height: 20px; */
     /* float: left; */
+  }
+
+	.menu a {
+    font-size: 25px;
   }
 
   .library-img img {
