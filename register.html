@@ -56,6 +56,78 @@
                <!-- <hr> -->
 
                <div class="tombol">
+                 <button type="button" id="btnlogin"> <a> REGISTER </a></button>
+                 <!-- <button id="myBtn">LOGIN</button> -->
+                 <div id="modalogin" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <p>You must fill in the data completely!</p>
+                        </div>
+
+                      </div>
+
+                      <script>
+                      // Get the modal
+                      var modal = document.getElementById("modalogin");
+
+                      // Get the button that opens the modal
+                      var btn = document.getElementById("btnlogin");
+
+                      // Get the <span> element that closes the modal
+                      var span = document.getElementsByClassName("close")[0];
+
+                      // When the user clicks the button, open the modal
+                      btn.onclick = function() {
+                        // function login(){
+                         var name = document.getElementById("name").value;
+                         var username = document.getElementById("username").value;
+                         var email = document.getElementById("email").value;
+                         var password = document.getElementById("password").value;
+                         if (name!="" && username!="" && email!="" && password !="") {
+                           // return true;
+                           window.location.href="login.html";
+                         } else{
+                           modal.style.display = "block";
+                           // alert('You must fill in the data completely!');
+                         }
+                        // }
+
+                        // modal.style.display = "block";
+                      }
+
+                      // When the user clicks on <span> (x), close the modal
+                      span.onclick = function() {
+                        modal.style.display = "none";
+                      }
+
+                      // When the user clicks anywhere outside of the modal, close it
+                      window.onclick = function(event) {
+                        if (event.target == modal) {
+                          modal.style.display = "none";
+                        }
+                      }
+                      </script>
+
+                 <!-- <script type="text/javascript">
+                   function login(){
+                    var email = document.getElementById("email").value;
+                    var password = document.getElementById("password").value;
+                    if (email!="" && password !="") {
+                      return true;
+                      window.location.href="course.html"
+                    } else{
+                      alert('You must fill in the data completely!');
+                    }
+                   }
+                 </script> -->
+                 <br><br>
+
+                 <!-- <button type="button" name="btnstart"> <a onclick="login()" href="course.html"> LOGIN </a></button> -->
+               </div>
+
+               <!-- <div class="tombol">
                  <script type="text/javascript">
                   function Register(){
                     var name = document.getElementById("name").value;
@@ -71,7 +143,7 @@
                   </script>
                  <br>
                  <button type="button" name="btnstart"> <a href="register.html" onclick="Register()"> REGISTER </a></button>
-               </div>
+               </div> -->
 
                <div class="quest">
                  <br>
